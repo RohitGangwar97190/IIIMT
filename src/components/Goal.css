@@ -1,0 +1,30 @@
+.Goal-main{
+    display: flex;
+    justify-content: center;
+    height:600px;
+    width:100%;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+.goal-main-box{
+    height:300px;
+    width:100%;
+    display:flex;
+    
+    
+}
+.goal-box{
+    height:480px;
+    width:90%;
+    margin:10px;
+    border: 1px solid black;
+}
+.goal-main-heading{
+   text-align: center;
+}
+@media screen and (max-width:405px){
+    .goal-main-box{
+        flex-direction: column;
+    }
+
+}

@@ -1,0 +1,20 @@
+.Section4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+    background-color:#2E8A99;
+    margin-top:100px;
+   }
+   h2{
+    margin-bottom: 400px;
+   }
+   .section4-img{
+    height: 60%;
+    height: 250px;
+   }
+   .main-section4{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   }

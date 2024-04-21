@@ -1,0 +1,66 @@
+.section1{
+    background: #074173;
+    height: 80vh;
+    width: 100%;
+    display:flex;
+    display: inline-flex;
+    box-shadow: 6px 6px 2px 1px rgba(0, 55, 255, 0.2);
+margin-bottom: 10px;
+      
+    
+}
+ .section1-left{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   width:50%;
+   
+}
+
+h1,h3{
+    margin: 0px;
+}
+ .section1-right{ 
+    height: 100%;
+    width:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    animation-name: rohit;
+    animation-duration: 20s;
+    animation-iteration-count: 4;
+    
+ }  
+ 
+ .section1-right img{
+
+    width: 70%;
+     height: 70%;
+    object-fit: cover;
+    border-radius: 20px; 
+    animation-name: rohit;
+    animation-duration: 20s;
+    animation-iteration-count: 4;
+
+ }
+ @keyframes rohit {
+   0%{
+      top:0px;
+      left:0px;
+   }
+   25%{
+      top:100px;
+      left:0px;
+   }
+   75%{top:250px;
+      left:250px;
+   }
+   100%{
+       top:0px;
+      left:250px;
+
+   }
+   
+ }
